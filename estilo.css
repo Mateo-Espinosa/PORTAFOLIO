@@ -8,6 +8,8 @@
 body::-webkit-scrollbar {
 	width: 5px;
 	background: #1e2326;
+    overflow-x: hidden;
+
 }
 
 body::-webkit-scrollbar-thumb {
@@ -602,7 +604,9 @@ html{
     width: 350px;
     left: 58%;
     margin-top: 2rem;
+    margin-left: -2rem;
     transform: translate(-50%, -50%);
+
 }
 .contacto .col .info ul{
     list-style: none;
@@ -726,6 +730,7 @@ footer .arriba{
     max-width: 140px;
     max-height: 40px;
 }
+
 .close {
     float: right;
     margin-top: -1rem;
@@ -742,4 +747,16 @@ footer .arriba{
 }
   
   
+.mapa {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100%; 
+  }
   
+  .mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
