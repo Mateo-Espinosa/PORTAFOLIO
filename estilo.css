@@ -72,7 +72,7 @@ html{
 .inicio{
   
     background: linear-gradient(to top, #1e232635, rgba(30, 35, 38, 0.44)),
-    url(img/fondo4.gif);
+    url(img/fondo4.png);
     background-size: cover;
     height: 110vh;
     color: #fff;
