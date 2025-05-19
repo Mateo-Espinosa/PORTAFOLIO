@@ -41,7 +41,7 @@ window.onscroll = function(){
 var downloadButton = document.getElementById('downloadButton');
 
 downloadButton.addEventListener('click', function() {
-var fileUrl = 'hdv/hojadevida.pdf'; 
+var fileUrl = 'hdv/HDV_Mateo_Espinosa.pdf'; 
 
 var link = document.createElement('a');
 link.href = fileUrl;
